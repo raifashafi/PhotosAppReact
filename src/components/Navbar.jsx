@@ -19,6 +19,7 @@ const Navbar = () => {
         <Link class="nav-link" to="/Search">SEARCH</Link>
         <Link class="nav-link" to="/Delete">DELETE</Link>
         <Link class="nav-link" to="/View">VIEW</Link>
+        <Link class="nav-link" to="/ViewNews">VIEW NEWS</Link>
       </div>
     </div>
   </div>

@@ -5,6 +5,7 @@ import Search from './components/Search';
 import Delete from './components/Delete';
 import View from './components/View';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ViewNews from './components/ViewNews';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
     <Route path='/Search' element={<Search/>}/>
     <Route path='/Delete' element={<Delete/>}/>
     <Route path='/View' element={<View/>}/>
+    <Route path='/ViewNews' element={<ViewNews/>}/>
+
 
     </Routes>
     
